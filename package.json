@@ -1,9 +1,30 @@
 {
+
   "dependencies": {
+
     "playwright": "^1.39.0",
+
     "typescript": "^5.2.2"
+
   },
+
   "devDependencies": {
-    "@cucumber/cucumber": "^10.0.1"
+
+    "@cucumber/cucumber": "^10.0.1",
+
+    "@playwright/test": "^1.39.0",
+
+    "@types/node": "^20.9.0",
+
+    "ts-node": "^10.9.1"
+
+  },
+
+  "scripts": {
+
+    "bookerPage": "cucumber-js test"
+
   }
+
 }
+

@@ -1,0 +1,13 @@
+{
+    "name": "Booker Page",
+    "webElement": [
+        {
+            "elementName"  : "hackme",
+            "selectorValue": "//input[@id='name']"
+        },
+        {
+          "elementName" : "emailname",
+          "selectorValue": "//input[@id='email']"
+        }
+    ] 
+}
