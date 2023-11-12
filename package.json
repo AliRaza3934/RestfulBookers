@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "playwright": "^1.39.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1"
+  }
+}
