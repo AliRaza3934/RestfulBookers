@@ -1,4 +1,4 @@
-import { Browser ,BrowserContext ,chromium } from "playwright";
+import { Browser ,BrowserContext ,chromium, Page } from "playwright";
 import { After,AfterAll,Before,BeforeAll,Status } from "@cucumber/cucumber";
 import{ pageFixture} from "./pagefixture";
 import{ config } from "../../../playwright.config"
@@ -8,7 +8,6 @@ let context : BrowserContext;
 
 BeforeAll(async function () {
     browser = await chromium.launch(config);
-    
 });
 Before (async function () {
     context = await browser.newContext({recordVideo:{dir : 'videos/'}});
@@ -24,8 +23,6 @@ After(async function ({ pickle, result}){
         await this.attach(img, "image/png")
     }    
 });
-
 AfterAll(async function () {
     await browser.close();
-    
 })
