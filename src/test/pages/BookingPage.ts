@@ -26,15 +26,15 @@ public async typeEmail(): Promise<any>{
 }
 
 public async typePhone() :Promise<any>{
-    await this.bookerPageLocators.phoneField().type('')
+    await this.bookerPageLocators.phoneField().type('+491794197221')
 }
 
 public async typeSubject():Promise<any>{
-    await this.bookerPageLocators.subjectField().type('')
+    await this.bookerPageLocators.subjectField().type('booking room')
 }
 
 public async typeMessageField() :Promise<any>{
-    await this.bookerPageLocators.messageField().type('')
+    await this.bookerPageLocators.messageField().type('i want to book  my subject')
 }
 
 public async buttonFiled() : Promise<any>{
