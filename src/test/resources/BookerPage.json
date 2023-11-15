@@ -8,6 +8,25 @@
         {
           "elementName" : "emailname",
           "selectorValue": "//input[@id='email']"
+        },
+        {
+          "elementName": "phone",
+          "selectorValue":"//input[@id='phone']"
+        },
+        {
+            "elementName":  "subject",
+            "selectorValue": "//input[@id='subject']"
+        },
+        {
+            "elementName":  "Message",
+            "selectorValue" : "//textarea[@id='description']"
+        },
+        {
+           "elementName":  "Button",
+           "selectorValue": "//button[@id='submitContact']"
         }
+        
+
+        
     ] 
 }
